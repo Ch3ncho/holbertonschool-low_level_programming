@@ -1,2 +1,10 @@
-#!/bin/bash
-gcc -o  { a="Programming is like building a multilingual puzzle" puts(a); return 0; }
+#include <stdio.h>
+/**
+ * main - prints a line with puts function
+ * Return: 0 (success)
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}
